@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <h1>Python Quiz</h1>
+    <div class="questions">
+        <center><h2 class="question">Q1: What is meant by alcohol</h2></center>
+        <ul>
+            <li>
+                <input type="radio" name="answer" id="ans1" class="options">
+                <label for="ans1"  id="option1">answer first</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="ans2" class="options">
+                <label for="ans2" id="option2">answer second</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="ans3" class="options">
+                <label for="ans3" id="option3">answer third</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="ans4" class="options">
+                <label for="ans4" id="option4">answer four</label>
+            </li>
+        </ul>
+        <div class="submit">
+        <button type="button" id="submit-btn">Submit</button>
+        </div>
+        <div class="result">
+            <h2 id="result"></h2>
+            <button id="playagain" class="playagain">Play again</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+ </div>
+</body>
+</html>
